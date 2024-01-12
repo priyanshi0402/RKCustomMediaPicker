@@ -1,0 +1,16 @@
+PODS:
+  - RKCustomMediaPicker (0.1.0)
+
+DEPENDENCIES:
+  - RKCustomMediaPicker (from `../`)
+
+EXTERNAL SOURCES:
+  RKCustomMediaPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RKCustomMediaPicker: c693ddc6c805a6369aea2e26b3007a6c0fb1a966
+
+PODFILE CHECKSUM: d68cd6ebfc5202a86bba1e447f05ff28e0c91009
+
+COCOAPODS: 1.14.3

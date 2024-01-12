@@ -1,0 +1,22 @@
+{
+  "name": "RKCustomMediaPicker",
+  "version": "0.1.0",
+  "summary": "A short description of RKCustomMediaPicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/priyanshi0402/RKCustomMediaPicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "priyanshi0402": "priyanshi.bhikadiya@sarvadhi.com"
+  },
+  "source": {
+    "git": "https://github.com/priyanshi0402/RKCustomMediaPicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "RKCustomMediaPicker/Classes/**/*"
+}

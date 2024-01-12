@@ -1,0 +1,6 @@
+framework module RKCustomMediaPicker {
+  umbrella header "RKCustomMediaPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

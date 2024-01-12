@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B5C407ADC79771C94106480DB7CEC6A /* Pods-RKCustomMediaPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B85872D60597D51D757A70F1D5606074 /* Pods-RKCustomMediaPicker_Tests-dummy.m */; };
+		1F0C0E546F3D1266D9868EE0314D8B86 /* RKCustomMediaPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E6F2C6CD5F034C5F161C9AD94B41CE /* RKCustomMediaPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A6EF1D2A3BA46F6CCB171B0A0B0576A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		816275790C7FB10C18D1F4A33303257C /* RKCustomMediaPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7757C92779DE0DB9F9B08DA0FCE9DF42 /* RKCustomMediaPicker-dummy.m */; };
+		8B98C8579DA24D2296E2ACB216200590 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA6BD228EA335A0DBDF8A2942A3F28C /* ReplaceMe.swift */; };
+		97B67D8B52D65EAF097E3F2D7AD81B5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		99B64C26F5C92A2897639F95DCA31CB1 /* Pods-RKCustomMediaPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 520934CB196E3472789F37DA25D17F49 /* Pods-RKCustomMediaPicker_Example-dummy.m */; };
+		A78B9A92A7D494C8CA746692DD83837E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D42DCEAA0DD14303B6B53C377A96DEB4 /* Pods-RKCustomMediaPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34DFA574B8772A9FC19F46634D753FE3 /* Pods-RKCustomMediaPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F03AD4F8D2E685B5B20456408BF606B3 /* Pods-RKCustomMediaPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E661EA3B79FA0332A581AF77E2618E1 /* Pods-RKCustomMediaPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C6ECE26C13E5A43EF93C96E6A4BC7D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A9B26ED3E592C41D8B6BD6ECE36EE5;
+			remoteInfo = "Pods-RKCustomMediaPicker_Example";
+		};
+		633E5593A692753F606D43AA6C1E574A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7707DB81C06FA2B723374912B489F5A5;
+			remoteInfo = RKCustomMediaPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		061566891B513CCC57128AB7906AD1B1 /* Pods-RKCustomMediaPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RKCustomMediaPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0EA06249A92466BB93500ED4EE9E175E /* Pods-RKCustomMediaPicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RKCustomMediaPicker_Example-Info.plist"; sourceTree = "<group>"; };
+		0FB39612EB9C91337E2962D279FF7C32 /* Pods-RKCustomMediaPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RKCustomMediaPicker_Tests.modulemap"; sourceTree = "<group>"; };
+		18F1CE06E1A0B0C1E01DA94876B7DC95 /* Pods-RKCustomMediaPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RKCustomMediaPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1CA17D390BD3ACB0D895FF687CA35945 /* RKCustomMediaPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RKCustomMediaPicker-Info.plist"; sourceTree = "<group>"; };
+		1F0CB01A6C3D1EC87BFE79A4A9F57275 /* RKCustomMediaPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RKCustomMediaPicker.debug.xcconfig; sourceTree = "<group>"; };
+		2148B37848E674739A5A8BBC9046E4FF /* RKCustomMediaPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RKCustomMediaPicker.modulemap; sourceTree = "<group>"; };
+		2B5A1937838A5E8F6A95F23466804E17 /* Pods-RKCustomMediaPicker_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RKCustomMediaPicker_Tests"; path = Pods_RKCustomMediaPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33BE6BC2DC653793BF9C554CDE6DD2CB /* Pods-RKCustomMediaPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RKCustomMediaPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		34DFA574B8772A9FC19F46634D753FE3 /* Pods-RKCustomMediaPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RKCustomMediaPicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		468C1D2B09FBFA9104805C09AC2186EE /* RKCustomMediaPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RKCustomMediaPicker.release.xcconfig; sourceTree = "<group>"; };
+		4E661EA3B79FA0332A581AF77E2618E1 /* Pods-RKCustomMediaPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RKCustomMediaPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		520934CB196E3472789F37DA25D17F49 /* Pods-RKCustomMediaPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RKCustomMediaPicker_Example-dummy.m"; sourceTree = "<group>"; };
+		5214F9E10D6C5BBEC5F7ECF242607CD6 /* Pods-RKCustomMediaPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RKCustomMediaPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		59069BD8048BE3E20B5E58D29CCFE05B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5A6E19052C2230902BE1A04ED8AB542F /* Pods-RKCustomMediaPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RKCustomMediaPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		72B411C6AD4CDB257D85CCBFC229DD96 /* Pods-RKCustomMediaPicker_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RKCustomMediaPicker_Example"; path = Pods_RKCustomMediaPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7757C92779DE0DB9F9B08DA0FCE9DF42 /* RKCustomMediaPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RKCustomMediaPicker-dummy.m"; sourceTree = "<group>"; };
+		8D61DB2B7EA5220A1C54A161019A5A6A /* Pods-RKCustomMediaPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RKCustomMediaPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		97AC305BACC7D8787882BA13FBE19398 /* Pods-RKCustomMediaPicker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RKCustomMediaPicker_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB25D5A146047010EBDC31E7E97B6485 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B2BE45729E98D1AC3516EDE131F21AB3 /* RKCustomMediaPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RKCustomMediaPicker.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		B85872D60597D51D757A70F1D5606074 /* Pods-RKCustomMediaPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RKCustomMediaPicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		C3BD9ECCC1A5655F133C779AFE28BE64 /* RKCustomMediaPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RKCustomMediaPicker; path = RKCustomMediaPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57B95E0F80CE64664E07185232A21B3 /* Pods-RKCustomMediaPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RKCustomMediaPicker_Example.modulemap"; sourceTree = "<group>"; };
+		CCA6BD228EA335A0DBDF8A2942A3F28C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RKCustomMediaPicker/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		D9C1E5877BDCC4EDB9C0BA7549578763 /* Pods-RKCustomMediaPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RKCustomMediaPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3ED3235826D292E294998E3EE2A78BC /* Pods-RKCustomMediaPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RKCustomMediaPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E4E6F2C6CD5F034C5F161C9AD94B41CE /* RKCustomMediaPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RKCustomMediaPicker-umbrella.h"; sourceTree = "<group>"; };
+		FA08C824562759FACF617760EE9C264C /* Pods-RKCustomMediaPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RKCustomMediaPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBEFB60FFF9B1259A792C9B6131334CA /* RKCustomMediaPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RKCustomMediaPicker-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A25CC31F6D5C0C32CF70A159511188B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6EF1D2A3BA46F6CCB171B0A0B0576A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F3E4513B82CD3AA10DC982CEF3D4068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97B67D8B52D65EAF097E3F2D7AD81B5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9863014895B516506152679E410A4742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78B9A92A7D494C8CA746692DD83837E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051C4C02534929A2060CE80CA8AC5869 /* Pods-RKCustomMediaPicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0FB39612EB9C91337E2962D279FF7C32 /* Pods-RKCustomMediaPicker_Tests.modulemap */,
+				E3ED3235826D292E294998E3EE2A78BC /* Pods-RKCustomMediaPicker_Tests-acknowledgements.markdown */,
+				FA08C824562759FACF617760EE9C264C /* Pods-RKCustomMediaPicker_Tests-acknowledgements.plist */,
+				B85872D60597D51D757A70F1D5606074 /* Pods-RKCustomMediaPicker_Tests-dummy.m */,
+				97AC305BACC7D8787882BA13FBE19398 /* Pods-RKCustomMediaPicker_Tests-Info.plist */,
+				4E661EA3B79FA0332A581AF77E2618E1 /* Pods-RKCustomMediaPicker_Tests-umbrella.h */,
+				8D61DB2B7EA5220A1C54A161019A5A6A /* Pods-RKCustomMediaPicker_Tests.debug.xcconfig */,
+				18F1CE06E1A0B0C1E01DA94876B7DC95 /* Pods-RKCustomMediaPicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-RKCustomMediaPicker_Tests";
+			path = "Target Support Files/Pods-RKCustomMediaPicker_Tests";
+			sourceTree = "<group>";
+		};
+		06099574B252A6997E53B92D4BB0EA13 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1841B412C5E2222B5F88712FC158B79D /* Pods-RKCustomMediaPicker_Example */,
+				051C4C02534929A2060CE80CA8AC5869 /* Pods-RKCustomMediaPicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1841B412C5E2222B5F88712FC158B79D /* Pods-RKCustomMediaPicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C57B95E0F80CE64664E07185232A21B3 /* Pods-RKCustomMediaPicker_Example.modulemap */,
+				061566891B513CCC57128AB7906AD1B1 /* Pods-RKCustomMediaPicker_Example-acknowledgements.markdown */,
+				D9C1E5877BDCC4EDB9C0BA7549578763 /* Pods-RKCustomMediaPicker_Example-acknowledgements.plist */,
+				520934CB196E3472789F37DA25D17F49 /* Pods-RKCustomMediaPicker_Example-dummy.m */,
+				33BE6BC2DC653793BF9C554CDE6DD2CB /* Pods-RKCustomMediaPicker_Example-frameworks.sh */,
+				0EA06249A92466BB93500ED4EE9E175E /* Pods-RKCustomMediaPicker_Example-Info.plist */,
+				34DFA574B8772A9FC19F46634D753FE3 /* Pods-RKCustomMediaPicker_Example-umbrella.h */,
+				5214F9E10D6C5BBEC5F7ECF242607CD6 /* Pods-RKCustomMediaPicker_Example.debug.xcconfig */,
+				5A6E19052C2230902BE1A04ED8AB542F /* Pods-RKCustomMediaPicker_Example.release.xcconfig */,
+			);
+			name = "Pods-RKCustomMediaPicker_Example";
+			path = "Target Support Files/Pods-RKCustomMediaPicker_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8D39DC45C8042FE15D00C865050CAC91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72B411C6AD4CDB257D85CCBFC229DD96 /* Pods-RKCustomMediaPicker_Example */,
+				2B5A1937838A5E8F6A95F23466804E17 /* Pods-RKCustomMediaPicker_Tests */,
+				C3BD9ECCC1A5655F133C779AFE28BE64 /* RKCustomMediaPicker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AFE8C222863E30FEA8B653CEA515417 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2148B37848E674739A5A8BBC9046E4FF /* RKCustomMediaPicker.modulemap */,
+				7757C92779DE0DB9F9B08DA0FCE9DF42 /* RKCustomMediaPicker-dummy.m */,
+				1CA17D390BD3ACB0D895FF687CA35945 /* RKCustomMediaPicker-Info.plist */,
+				FBEFB60FFF9B1259A792C9B6131334CA /* RKCustomMediaPicker-prefix.pch */,
+				E4E6F2C6CD5F034C5F161C9AD94B41CE /* RKCustomMediaPicker-umbrella.h */,
+				1F0CB01A6C3D1EC87BFE79A4A9F57275 /* RKCustomMediaPicker.debug.xcconfig */,
+				468C1D2B09FBFA9104805C09AC2186EE /* RKCustomMediaPicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RKCustomMediaPicker";
+			sourceTree = "<group>";
+		};
+		AB512B1004C36B7991B2224522511B38 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AB25D5A146047010EBDC31E7E97B6485 /* LICENSE */,
+				59069BD8048BE3E20B5E58D29CCFE05B /* README.md */,
+				B2BE45729E98D1AC3516EDE131F21AB3 /* RKCustomMediaPicker.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E51BFF9219770A02649049372CC7C056 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8D39DC45C8042FE15D00C865050CAC91 /* Products */,
+				06099574B252A6997E53B92D4BB0EA13 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E51BFF9219770A02649049372CC7C056 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5A0BB6E9BAC42F0BB6B0B0BDB9743B6 /* RKCustomMediaPicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F5A0BB6E9BAC42F0BB6B0B0BDB9743B6 /* RKCustomMediaPicker */ = {
+			isa = PBXGroup;
+			children = (
+				CCA6BD228EA335A0DBDF8A2942A3F28C /* ReplaceMe.swift */,
+				AB512B1004C36B7991B2224522511B38 /* Pod */,
+				9AFE8C222863E30FEA8B653CEA515417 /* Support Files */,
+			);
+			name = RKCustomMediaPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1C68A8B4156BFDE8B3E070A5D0EC4F8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42DCEAA0DD14303B6B53C377A96DEB4 /* Pods-RKCustomMediaPicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845EA5B299097EF0809E8682010D6EFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03AD4F8D2E685B5B20456408BF606B3 /* Pods-RKCustomMediaPicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		935056C7A23EED60FA53F8EE12D92808 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0C0E546F3D1266D9868EE0314D8B86 /* RKCustomMediaPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		33A9B26ED3E592C41D8B6BD6ECE36EE5 /* Pods-RKCustomMediaPicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B3BA21F582816C3C457D9FF6017E90 /* Build configuration list for PBXNativeTarget "Pods-RKCustomMediaPicker_Example" */;
+			buildPhases = (
+				1C68A8B4156BFDE8B3E070A5D0EC4F8E /* Headers */,
+				6DAEA4D4D342859DD1BFCAEE67CE0DAE /* Sources */,
+				9863014895B516506152679E410A4742 /* Frameworks */,
+				67C408CD22987FBC4E4A680294282BCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCD8DD0533CA631AA081BBEBF9449D9E /* PBXTargetDependency */,
+			);
+			name = "Pods-RKCustomMediaPicker_Example";
+			productName = Pods_RKCustomMediaPicker_Example;
+			productReference = 72B411C6AD4CDB257D85CCBFC229DD96 /* Pods-RKCustomMediaPicker_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		38E31FF5F569400919484AD362B4C126 /* Pods-RKCustomMediaPicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42C88E3BB517DC79C883E686AB52E572 /* Build configuration list for PBXNativeTarget "Pods-RKCustomMediaPicker_Tests" */;
+			buildPhases = (
+				845EA5B299097EF0809E8682010D6EFD /* Headers */,
+				FB8FC5779620C1AD48C2FDFB995727CC /* Sources */,
+				6F3E4513B82CD3AA10DC982CEF3D4068 /* Frameworks */,
+				5E1370FF7F6089AD3482A78271E0A068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F272299E5C2AD115698373727B33C3FA /* PBXTargetDependency */,
+			);
+			name = "Pods-RKCustomMediaPicker_Tests";
+			productName = Pods_RKCustomMediaPicker_Tests;
+			productReference = 2B5A1937838A5E8F6A95F23466804E17 /* Pods-RKCustomMediaPicker_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		7707DB81C06FA2B723374912B489F5A5 /* RKCustomMediaPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21E7A1148CAB756E8D3610AB17B068E2 /* Build configuration list for PBXNativeTarget "RKCustomMediaPicker" */;
+			buildPhases = (
+				935056C7A23EED60FA53F8EE12D92808 /* Headers */,
+				0E64E9E6F570618B7D21196708567BD7 /* Sources */,
+				6A25CC31F6D5C0C32CF70A159511188B /* Frameworks */,
+				401D21C5C7394D42CFDA61265107CB2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RKCustomMediaPicker;
+			productName = RKCustomMediaPicker;
+			productReference = C3BD9ECCC1A5655F133C779AFE28BE64 /* RKCustomMediaPicker */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8D39DC45C8042FE15D00C865050CAC91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33A9B26ED3E592C41D8B6BD6ECE36EE5 /* Pods-RKCustomMediaPicker_Example */,
+				38E31FF5F569400919484AD362B4C126 /* Pods-RKCustomMediaPicker_Tests */,
+				7707DB81C06FA2B723374912B489F5A5 /* RKCustomMediaPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		401D21C5C7394D42CFDA61265107CB2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1370FF7F6089AD3482A78271E0A068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C408CD22987FBC4E4A680294282BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E64E9E6F570618B7D21196708567BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B98C8579DA24D2296E2ACB216200590 /* ReplaceMe.swift in Sources */,
+				816275790C7FB10C18D1F4A33303257C /* RKCustomMediaPicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DAEA4D4D342859DD1BFCAEE67CE0DAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B64C26F5C92A2897639F95DCA31CB1 /* Pods-RKCustomMediaPicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8FC5779620C1AD48C2FDFB995727CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5C407ADC79771C94106480DB7CEC6A /* Pods-RKCustomMediaPicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F272299E5C2AD115698373727B33C3FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RKCustomMediaPicker_Example";
+			target = 33A9B26ED3E592C41D8B6BD6ECE36EE5 /* Pods-RKCustomMediaPicker_Example */;
+			targetProxy = 4C6ECE26C13E5A43EF93C96E6A4BC7D6 /* PBXContainerItemProxy */;
+		};
+		FCD8DD0533CA631AA081BBEBF9449D9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RKCustomMediaPicker;
+			target = 7707DB81C06FA2B723374912B489F5A5 /* RKCustomMediaPicker */;
+			targetProxy = 633E5593A692753F606D43AA6C1E574A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7DE9AC733CB8FB182CB87CBF2667BB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D61DB2B7EA5220A1C54A161019A5A6A /* Pods-RKCustomMediaPicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RKCustomMediaPicker_Tests/Pods-RKCustomMediaPicker_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RKCustomMediaPicker_Tests/Pods-RKCustomMediaPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A48A6BA67A5FDE74A80CB3C1F7DEE830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F0CB01A6C3D1EC87BFE79A4A9F57275 /* RKCustomMediaPicker.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RKCustomMediaPicker/RKCustomMediaPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RKCustomMediaPicker/RKCustomMediaPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RKCustomMediaPicker/RKCustomMediaPicker.modulemap";
+				PRODUCT_MODULE_NAME = RKCustomMediaPicker;
+				PRODUCT_NAME = RKCustomMediaPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B023B0CA92FDA0245DCB76F9C92DAF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F1CE06E1A0B0C1E01DA94876B7DC95 /* Pods-RKCustomMediaPicker_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RKCustomMediaPicker_Tests/Pods-RKCustomMediaPicker_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RKCustomMediaPicker_Tests/Pods-RKCustomMediaPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C329F6C2E2784B5340D214D1762029A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 468C1D2B09FBFA9104805C09AC2186EE /* RKCustomMediaPicker.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RKCustomMediaPicker/RKCustomMediaPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RKCustomMediaPicker/RKCustomMediaPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RKCustomMediaPicker/RKCustomMediaPicker.modulemap";
+				PRODUCT_MODULE_NAME = RKCustomMediaPicker;
+				PRODUCT_NAME = RKCustomMediaPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC59CD7D18A7C8872C5F47D9A338DE62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A6E19052C2230902BE1A04ED8AB542F /* Pods-RKCustomMediaPicker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RKCustomMediaPicker_Example/Pods-RKCustomMediaPicker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RKCustomMediaPicker_Example/Pods-RKCustomMediaPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F902A59FA60B7F34FEDAD97D47808768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5214F9E10D6C5BBEC5F7ECF242607CD6 /* Pods-RKCustomMediaPicker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RKCustomMediaPicker_Example/Pods-RKCustomMediaPicker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RKCustomMediaPicker_Example/Pods-RKCustomMediaPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21E7A1148CAB756E8D3610AB17B068E2 /* Build configuration list for PBXNativeTarget "RKCustomMediaPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48A6BA67A5FDE74A80CB3C1F7DEE830 /* Debug */,
+				C329F6C2E2784B5340D214D1762029A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42C88E3BB517DC79C883E686AB52E572 /* Build configuration list for PBXNativeTarget "Pods-RKCustomMediaPicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE9AC733CB8FB182CB87CBF2667BB40 /* Debug */,
+				B023B0CA92FDA0245DCB76F9C92DAF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B3BA21F582816C3C457D9FF6017E90 /* Build configuration list for PBXNativeTarget "Pods-RKCustomMediaPicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F902A59FA60B7F34FEDAD97D47808768 /* Debug */,
+				CC59CD7D18A7C8872C5F47D9A338DE62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
