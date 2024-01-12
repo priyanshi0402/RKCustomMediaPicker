@@ -22,7 +22,9 @@ pod 'RKCustomMediaPicker'
 
 ## Author
 
-priyanshi0402, priyanshi.bhikadiya@sarvadhi.com
+Priyanshi Bhikadiya, 
+priyanshibhikadiya.dev@gmail.com
+
 
 ## License
 
